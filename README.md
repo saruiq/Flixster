@@ -22,7 +22,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
 <img src="walkthrough.gif" width=250><br>
 
@@ -31,7 +30,8 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ### Notes
 Describe any challenges encountered while building the app.
 
-Some challenges I encountered while building the app were that I think on my laptop, Android Studio loads super slow, and sometimes even froze or glitched. So, as I was coding, it was very difficult to make sure everything worked smoothly. I also had some issues with my emulator crashing at times, but after checking the Slack channel, someone has a similar problem as me and said to reboot the emulator, which helped a lot. There was also issue with my emulator not turning sideways, I just had my rotation locked, I was easily able to fix that. Other than that, I was able to get through the tutorials and create the app!
+Some challenges I encountered while building the app were that I think on my laptop, Android Studio loads super slow, and sometimes even freezes or glitches. So, as I was coding, it was very difficult to make sure everything worked smoothly. I also had some issues with my emulator crashing at times, but after checking the Slack channel, someone has a similar problem as me and said to reboot the emulator, which helped a lot. There was also issue with my emulator not turning sideways, which I just had to press the auto rotate button on the emulator. Lastly, at the beginning, where we ran the app in debug mode to check whether Android Studio is successfully connecting to the API, mine app kept reaching onFailure. However, I fixed that problem by deleting the app on the emulator and running the program again. Other than that, I was able to get through the tutorials and create the app!
+
 ### Open-source libraries used
 
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
