@@ -28,6 +28,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
+
 Some challenges I encountered while building the app were that I think on my laptop, Android Studio loads super slow, and sometimes even froze or glitched. So, as I was coding, it was very difficult to make sure everything worked smoothly. I also had some issues with my emulator crashing at times, but after checking the Slack channel, someone has a similar problem as me and said to reboot the emulator, which helped a lot. There was also issue with my emulator not turning sideways, I just had my rotation locked, I was easily able to fix that. Other than that, I was able to get through the tutorials and create the app!
 ### Open-source libraries used
 
