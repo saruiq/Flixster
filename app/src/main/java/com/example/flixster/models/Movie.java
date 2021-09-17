@@ -17,7 +17,6 @@ public class Movie {
     String title;
     String overview;
     double rating;
-
     // empty constructor needed by the Parceler library
     public Movie() {}
 
@@ -61,4 +60,5 @@ public class Movie {
     public int getMovieID() {
         return movieID;
     }
+
 }

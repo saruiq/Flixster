@@ -29,6 +29,7 @@ public class DetailActivity extends YouTubeBaseActivity {
 
     TextView tvMovieName;
     TextView tvSummary;
+    TextView tvReleaseDate;
     RatingBar ratingBar;
     YouTubePlayerView youTubePlayerView;
 
@@ -47,6 +48,7 @@ public class DetailActivity extends YouTubeBaseActivity {
         tvMovieName.setText(movie.getTitle());
         tvSummary.setText(movie.getOverview());
         ratingBar.setRating((float) movie.getRating());
+
 
         AsyncHttpClient client = new AsyncHttpClient();
         client.get(String.format(VIDEOS_URL, movie.getMovieID()), new JsonHttpResponseHandler() {
